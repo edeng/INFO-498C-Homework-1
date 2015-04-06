@@ -1,3 +1,8 @@
+// Eden Ghirmai
+// INFO 498C, Spr 2014
+// HW #1 -- uw java test
+// A simple person class to go over the fundamentals of java
+
 package com.tedneward.example;
 
 import java.beans.*;
@@ -26,6 +31,7 @@ public class Person implements Comparable<Person> {
     count++;
   }
 
+  // returns an ArrayList<Person> of Ted Neward's family
   public static ArrayList<Person> getNewardFamily() {
     ArrayList<Person> newardFamily = new ArrayList<Person>();
 

@@ -1,4 +1,8 @@
-package com.tedneward.example;
+// Eden Ghirmai
+// INFO 498C, Spr 2014
+// HW #1 -- uw java test
+// this is the test class for Person which uses unit tests to assure
+// correct functionality of the Person class
 
 import java.beans.*;
 import java.beans.PropertyChangeEvent;
