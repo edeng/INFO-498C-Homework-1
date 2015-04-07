@@ -4,6 +4,8 @@
 // this is the test class for Person which uses unit tests to assure
 // correct functionality of the Person class
 
+package com.tedneward.example;
+
 import java.beans.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -100,7 +102,7 @@ public class TestPerson {
 
     ted.addPropertyChangeListener((pce) -> {
       assertEquals("ssn", pce.getPropertyName());
-      assertEquals(null, pce.getOldValue());
+      assertEquals("", pce.getOldValue());
       assertEquals("012-34-5678", pce.getNewValue());
     });
 
